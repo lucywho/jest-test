@@ -45,6 +45,7 @@ function LoginForm(props: Props) {
                 name="username"
                 value={username}
                 onChange={handleUsernameChange}
+                placeholder="enter username"
             />
 
             <label htmlFor="password">Password:</label>
@@ -54,6 +55,7 @@ function LoginForm(props: Props) {
                 name="password"
                 value={password}
                 onChange={handlePasswordChange}
+                placeholder="enter password"
             />
 
             <label>
